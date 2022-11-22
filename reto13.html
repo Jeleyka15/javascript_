@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios Js</title>
-    <script src="./js/reto13.js"></script>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;600;700&display=swap" rel="stylesheet">
+    
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+
+
+    <title>Ejercicios JavaScript</title>
+    
+    
 </head>
 <body>
     <section>
-        <h1>Mi Calculadorita</h1>
+        <h1>Calculadora</h1>
         <form action="">
             <input id="valor1" type="number">
             <select id="selector" name="select">
@@ -19,13 +29,13 @@
                 <option value="division">/</option>
             </select>
             <input id="valor2" type="number">
-            <input type="button" id="btn_calculator" value="Respuesta" onclick="(calculamelo);"></input>
+            <input type="button" id="btn_calculator" value="Calculamelo" onclick="calculamelo();"></input>
             <div id="resultado1"></div>
         </form>
     </section>
     
     <section>
-        <h1>Calculadora de porcentaje</h1>
+        <h1>Calculadora 20%</h1>
         <form action="">
             <input id="valor20" type="number">
             
@@ -35,7 +45,7 @@
     </section>
 
     <section>
-        <h1>Convierte y cambiar medidas</h1>
+        <h1>Convierte metros a cm y mm</h1>
         <form action="">
             <input id="valormm" type="number">
             
@@ -48,7 +58,7 @@
     </section>  
     
     <section>
-        <h1>Geometria</h1>
+        <h1>Área del Triángulo</h1>
         <form action="">
             <input id="valor_b" type="number" placeholder="Base">            
             <input id="valor_h" type="number" placeholder="Altura">            
@@ -58,7 +68,7 @@
     </section>  
    
     <section>
-        <h1>Convertir monedas</h1>
+        <h1>Dolares a Soles</h1>
         <form action="">
             <input id="valor_dolar" type="number" placeholder="Dolares">            
             <input type="button" id="btn_soles" value="Convertir a soles" onclick="soles();"></input>
@@ -67,7 +77,7 @@
     </section>  
 
     <section>
-        <h1>Cambiar medidas</h1>
+        <h1>Pulgadas a milimetros</h1>
         <form action="">
             <input id="valor_pulgadas" type="number" placeholder="Pulgadas">            
             <input type="button" id="btn_pulgadas" value="Convertir a mm" onclick="pulgadas();">
@@ -76,7 +86,7 @@
     </section>
 
     <section>
-        <h1>Sumatoria 3 cifras</h1>
+        <h1>Suma 3 cifras</h1>
         <form action="">
             <input id="valor_cifras" type="text" placeholder="3 cifras" maxlength="3" minlength="3">            
             <input type="button" id="3 cifras" value="Suma cifras" onclick="cifras();">
@@ -85,7 +95,7 @@
     </section>
     
     <section>
-        <h1>Porcentajes de sueldos de socios</h1>
+        <h1>Porcentajes Socios</h1>
         <input type="number" id="socios" placeholder="Añade el monto">
         <input type="button" id="btn-socios" value="Repartir" onclick="repartija();">
         <p>Socia A - 30%</p>
@@ -97,7 +107,7 @@
     </section>
 
     <section>
-        <h1>Calculardora de IGV</h1>
+        <h1>Calcular IGV</h1>
         <form action="">
             <input id="costo" type="number" placeholder="Precio base">            
             <input type="button" id="btn-igv" value="Calcula IGV" onclick="igv();">
@@ -109,7 +119,7 @@
     </section>
     
     <section>
-        <h1>Total de entradas</h1>
+        <h1>Entradas</h1>
         <form action="">
             <label for="">N° Entradas Generales</label>
             <input id="generales" type="number" placeholder="Entradas Generales">            
@@ -133,3 +143,5 @@
     </section>
 </body>
 </html>
+
+<script src="./js/reto13.js"></script>

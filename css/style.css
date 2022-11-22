@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(247, 238, 237);
 }
 
 main {
@@ -18,8 +18,8 @@ main {
 
 h1 {
     padding-top: 30px;
-    color: yellow;
-    font-weight: 500;
+    color: rgb(238, 206, 203);
+    font-weight:1000;
 }
 
 .menu {
@@ -32,13 +32,13 @@ h1 {
 .sesion {
     max-width: 60vw;
     height: auto;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 10px;    
 }
 
 h2 {
     margin-bottom: 15px;
-    color: #fff;
+    color:  rgb(216, 136,127);
     font-weight: 300;
 }
 
@@ -48,8 +48,8 @@ input {
     height: auto;
     padding: 5px;
     font-size: 1rem;
-    background-color: yellow;
-    color: black;
+    background-color: rgb(216, 136,127);
+    color: white;
     cursor: pointer;
     border: none;
 }
@@ -57,5 +57,5 @@ input {
 input:hover {
     background: none;
     color: white;
-    border: 1px yellow solid;
+    border: 1px black;
 }
