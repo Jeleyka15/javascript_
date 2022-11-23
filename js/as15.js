@@ -18,8 +18,6 @@ function sueldo(){
         p_sueldo.innerText =`El trabajador ${nombre} no tiene hijos, por lo que su sueldo se mantiene en S/${sueldo}`;
     }
 }
-
-
 /* Ejercicio 2 */
 const btn_percent = document.getElementById('btn_percent');
 const p_percent = document.getElementById('p_percent');
